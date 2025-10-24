@@ -1,0 +1,16 @@
+# Clone the repository (if you haven't already)
+git clone https://github.com/RestrepomaGT/FOC-South-Florida-Social-LOGO.git
+cd FOC-South-Florida-Social-LOGO
+
+# Copy or move the saved logo into this folder
+# (Assuming you saved it in your Downloads folder)
+cp ~/Downloads/FOC-2025-logo.png .
+
+# Add the file to git
+git add FOC-2025-logo.png
+
+# Commit the file
+git commit -m "Add 2025 FOC South Florida Social event logo"
+
+# Push to GitHub
+git push origin main
